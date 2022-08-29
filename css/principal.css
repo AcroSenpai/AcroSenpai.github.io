@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    background-color: #e0fbfc;
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Size: 35px;
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 16px;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    background-color: #98c1d9;
+    flex-wrap: wrap;
+}
+
+#header_primera_fila {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+}
+
+#header_segunda_fila {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+#Logo {
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+#Componentes_header {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Contenedor {
+    width: 100%;
+    height: 1000px;
+}
+
+.Contenedor:nth-child(2n+3) {
+    background-color: #3d5a80;
+}
+
+#Inicio {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Inicio div {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#Inicio div img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#Pagina_online {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Galeria {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pagina {
+    width: 20%;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.nombre {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Efecto imagenes*/
+
+.card {
+    /*width: 300px;*/
+    height: 350px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #e0fbfc;
+}
+
+.card * {
+    transition: 0.3s ease all;
+}
+
+.card img {
+    margin: 0;
+    /*width: 300px;
+    height: 224px;*/
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 12px 12px 12px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card .focus-content {
+    display: block;
+    padding: 8px 12px;
+}
+
+.card p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.card:hover img,
+.card:focus-within img {
+    margin-top: -20px;
+}
+
+.card:hover h3,
+.card:focus-within h3 {
+    padding: 8px 12px 0;
+}
