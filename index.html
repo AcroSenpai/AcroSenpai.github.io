@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="css/principal.css" />
     <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
     <!-- https://material.io/resources/icons/?style=baseline -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery/principal.js"></script>
 </head>
 
 <body>
     <!--Header relleno-->
-    <div id="header">
+    <div id="header" style="visibility: hidden; position: relative;">
         <!--Header web-->
         <div id="header_segunda_fila" class="desaparecer_movil">
             <div id="Logo">
@@ -69,35 +71,52 @@
                 <a href="#Inicio"><img src="images/Logo.png" /></a>
             </div>
             <div id="Burger">
-                <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-                <lord-icon src="https://cdn.lordicon.com/jtqpkhoh.json" trigger="morph" colors="primary:#faf7f7,secondary:#08a88a" style="width:100%">
-                </lord-icon>
+                <img src="images/menu_burger.png">
             </div>
         </div>
 
     </div>
+    <!--Menu movil-->
     <div id="Componentes_header_movil" class="">
         <div class="relleno">-</div>
-        <div>
+        <div onclick="scrollToAnchor('Inicio')">
             <a href="#Inicio">Sobre mi</a>
         </div>
-        <div>
+        <div onclick="scrollToAnchor('Pagina_online')">
             <a href="#Pagina_online">Paginas comerciales</a>
         </div>
-        <div>
+        <div onclick="scrollToAnchor('Pagina_propia')">
             <a href="#Pagina_propia">Projectos propios</a>
         </div>
-        <div>
+        <div onclick="scrollToAnchor('Contacto')">
             <a href="#Contacto">Contacto</a>
         </div>
     </div>
-
+    <!--Sombre mi-->
     <div id="Inicio" class="Contenedor">
         <!--Inicio-->
         <div>
-            Programador web y de videojuegos
+            <div>
+                <h1 class="ml10">
+                    <span class="text-wrapper">
+                        <span class="letters">Aitor Javier Perez Muro</span>
+                    </span>
+                </h1>
+                <h2>
+                    Programador web y de videojuegos
+                </h2>
+            </div>
+            <div>
+                <h4>Sobre mi</h4>
+                Programador Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat fuga deleniti eos sed amet eligendi non ipsum nobis alias, aut, minima tempora. Tenetur officia atque dolorum, quidem nulla ab quod!
+            </div>
+            <div>
+                Scroll habilidades
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         </div>
-        <div>
+        <div class="desaparecer_movil">
             <img src="images/1.png">
         </div>
     </div>
@@ -181,5 +200,6 @@
         <div> Cosas de footer</div>
     </div>
 </body>
+<script src="jquery/principal.js"></script>
 
 </html>
