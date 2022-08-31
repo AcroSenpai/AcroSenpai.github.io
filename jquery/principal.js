@@ -58,6 +58,29 @@ $(document).ready(function() {
             easing: "easeOutExpo",
             delay: 10000000
         });
+
+    $('#slider').nivoSlider({
+        effect: 'slideInLeft',
+        slices: 15,
+        boxCols: 8,
+        boxRows: 4,
+        animSpeed: 1000,
+        pauseTime: 5000,
+        startSlide: 0,
+        directionNav: false,
+        controlNav: false,
+        controlNavThumbs: false,
+        pauseOnHover: true,
+        manualAdvance: false,
+        prevText: 'Prev',
+        nextText: 'Next',
+        randomStart: false,
+        beforeChange: function() {},
+        afterChange: function() {},
+        slideshowEnd: function() {},
+        lastSlide: function() {},
+        afterLoad: function() {}
+    });
 });
 
 var alturaPantalla = "";

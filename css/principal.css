@@ -1,7 +1,8 @@
 body {
     margin: 0px;
+    overflow-x: hidden;
     /*background-color: #05BAD4;*/
-    background: #270722;
+    background: #24113c;
     Font-Family: 'Roboto Condensed', Sans-Serif;
     Font-Size: 35px;
     Font-Family: 'Cabin', Sans-Serif;
@@ -13,6 +14,19 @@ body {
     width: 100%;
     height: 1000px;
     background: radial-gradient(circle, #5fc5d4 49%, #05BAD4);
+    background-image: url("../images/fondo_azul.png");
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 50s linear infinite;
+}
+
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
 }
 
 .Contenedor:nth-child(2n+3) {
@@ -21,7 +35,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    background-color: #270722;
+    background-color: #24113c;
     width: 12px;
 }
 
@@ -37,7 +51,7 @@ body {
     width: 100%;
     position: fixed;
     display: flex;
-    background-color: #270722;
+    background-color: #24113c;
     flex-wrap: wrap;
     color: #faf7f7;
     z-index: 10;
@@ -70,7 +84,7 @@ body {
 }
 
 #Componentes_header_movil {
-    background-color: #270722;
+    background-color: #24113c;
     color: #faf7f7;
     font-size: 3vw;
     width: 50%;
@@ -100,7 +114,7 @@ body {
 }
 
 .menu_hover {
-    color: #270722 !important;
+    color: #24113c !important;
 }
 
 .relleno {
@@ -128,12 +142,15 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    color: #faf7f7;
+    text-shadow: 0 0 2px #24113c;
 }
 
 #Inicio div {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #Inicio div img {
@@ -153,6 +170,57 @@ body {
 
 .texto {
     width: 100%;
+}
+
+#Inicio_informacion {
+    width: 90% !important;
+    background-color: rgba(33, 7, 41, 0.3);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 5px rgba(33, 7, 41, 0.5);
+}
+
+.separador {
+    height: 2vh;
+}
+
+
+/*Boton descarga*/
+
+.boton_CV {
+    width: 50% !important;
+    height: 40px;
+    margin-top: 5%;
+}
+
+.boton_CV button {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: #d04725;
+    box-shadow: inset -20px -20px 60px #b13c1f, inset 20px 20px 60px #ef522b;
+    color: #faf7f7;
+    border: none;
+    text-decoration: none;
+}
+
+.boton_CV button:focus {
+    border-radius: 50px;
+    background: #24113c;
+    box-shadow: inset -20px -20px 60px #1f0e33, inset 20px 20px 60px #291445;
+}
+
+
+/*Slider*/
+
+.slider_panel_principal {
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+}
+
+.slider_panel_secundario {
+    width: 3000px !important;
+    flex-wrap: nowrap !important;
 }
 
 
