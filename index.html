@@ -38,7 +38,7 @@
             </div>
         </div>
         <!--Header movil-->
-        <div id="header_segunda_fila">
+        <div id="header_segunda_fila" class="desaparecer_web">
             <div id="Logo">
                 <a href="#Inicio"><img src="images/Logo.png" /></a>
             </div>
@@ -52,22 +52,22 @@
                 <a href="#Inicio"><img src="images/Logo.png" /></a>
             </div>
             <div id="Componentes_header">
-                <div>
-                    Sobre mi
+                <div onclick="scrollToAnchor('Inicio')">
+                    <a href="#Inicio">Sobre mi</a>
                 </div>
-                <div>
-                    Paginas comerciales
+                <div onclick="scrollToAnchor('Pagina_online')">
+                    <a href="#Pagina_online">Paginas comerciales</a>
                 </div>
-                <div>
-                    Projectos propios
+                <div onclick="scrollToAnchor('Pagina_propia')">
+                    <a href="#Pagina_propia">Projectos propios</a>
                 </div>
-                <div>
-                    Contacto
+                <div onclick="scrollToAnchor('Contacto')">
+                    <a href="#Contacto">Contacto</a>
                 </div>
             </div>
         </div>
         <!--Header movil-->
-        <div id="header_segunda_fila">
+        <div id="header_segunda_fila" class="desaparecer_web">
             <div id="Logo">
                 <a href="#Inicio"><img src="images/Logo.png" /></a>
             </div>
@@ -97,44 +97,46 @@
     <div id="Inicio" class="Contenedor">
         <!--Inicio-->
         <div>
-            <div>
-                <h1 class="ml10">
-                    <span class="text-wrapper">
-                        <span class="letters">Aitor Javier Perez Muro</span>
-                    </span>
-                </h1>
-                <h2>
-                    Programador web y de videojuegos
-                </h2>
-            </div>
-            <div id="Inicio_informacion">
-                <h3>Sobre mi</h3>
-                <span style="padding: 2vw;">
+            <h1 class="ml10">
+                <span class="text-wrapper">
+                    <span class="letters">Aitor Javier Perez Muro</span>
+                </span>
+            </h1>
+            <h2>
+                Programador web y de videojuegos
+            </h2>
+        </div>
+        <div>
+            <div class="informacion_contenedores">
+                <div id="Inicio_informacion">
+                    <h3>Sobre mi</h3>
+                    <span style="padding: 2vw;">
                     Soy desarrollador web junior con interés en el Backend como en el Frontend, estuve un año desarrollando Videojuegos, pero ahora quiero afrontar nuevos retos.
                 </span>
-                <div class="separador"></div>
+                    <div class="separador"></div>
 
-                <div>
-                    <a href="Documentos/AitorJavierPerezMuro_Curriculum.pdf" class="boton_CV"><button type="button" >CV</button></a>
-                </div>
-                <div class="separador"></div>
-            </div>
-            <div>
-                <h3>skills</h3>
-                <div class="">
-                    <div id="slider" class="nivoSlider">
-                        <img src="slider/images/1.png" data-thumb="slider/images/1.png" alt="" />
-                        <img src="slider/images/2.png" data-thumb="slider/images/2.png" alt="" />
-                        <img src="slider/images/3.png" data-thumb="slider/images/3.png" alt="" />
+                    <div>
+                        <a href="Documentos/AitorJavierPerezMuro_Curriculum.pdf" class="boton_CV"><button type="button" >CV</button></a>
                     </div>
+                    <div class="separador"></div>
+                </div>
+                <div>
+                    <h3>skills</h3>
+                    <div class="">
+                        <div id="slider" class="nivoSlider">
+                            <img src="slider/images/1.png" data-thumb="slider/images/1.png" alt="" />
+                            <img src="slider/images/2.png" data-thumb="slider/images/2.png" alt="" />
+                            <img src="slider/images/3.png" data-thumb="slider/images/3.png" alt="" />
+                        </div>
+                    </div>
+
                 </div>
 
+
             </div>
-
-
-        </div>
-        <div class="desaparecer_movil">
-            <img src="images/1.png">
+            <div class="desaparecer_movil informacion_contenedores">
+                <img src="images/1.png">
+            </div>
         </div>
     </div>
 
@@ -150,12 +152,12 @@
 
                     <a href="https://ivanovichgames.com/TouringKarts/">
                         <img class="image" src="images/tk.webp">
+                        <div class="overlay">
+                            <h3 class="text_titulo">TouringKarts</h3>
+                            <p class="text">Html5, CSS3, Jquery<br/>
+                            </p>
+                        </div>
                     </a>
-                    <div class="overlay">
-                        <h3 class="text_titulo">TouringKarts</h3>
-                        <p class="text">Html5, CSS3, Jquery<br/>
-                        </p>
-                    </div>
                 </div>
             </div>
             <div class="pagina">
@@ -163,12 +165,12 @@
 
                     <a href="https://ivanovichgames.com/Pangman/">
                         <img class="image" src="images/pang.webp">
+                        <div class="overlay">
+                            <h3 class="text_titulo">Pangman</h3>
+                            <p class="text">Html5, CSS3, Jquery<br/>
+                            </p>
+                        </div>
                     </a>
-                    <div class="overlay">
-                        <h3 class="text_titulo">Pangman</h3>
-                        <p class="text">Html5, CSS3, Jquery<br/>
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -187,12 +189,12 @@
 
                     <a href="#">
                         <img class="image" src="images/tk.webp">
+                        <div class="overlay_blanco">
+                            <h3 class="text_titulo_negro">Ejemplo1</h3>
+                            <p class="text_negro">Html5, CSS3, Jquery<br/>
+                            </p>
+                        </div>
                     </a>
-                    <div class="overlay_blanco">
-                        <h3 class="text_titulo_negro">Ejemplo1</h3>
-                        <p class="text_negro">Html5, CSS3, Jquery<br/>
-                        </p>
-                    </div>
                 </div>
             </div>
             <div class="pagina">
@@ -200,12 +202,12 @@
 
                     <a href="#">
                         <img class="image" src="images/pang.webp">
+                        <div class="overlay_blanco">
+                            <h3 class="text_titulo_negro">Ejemplo2</h3>
+                            <p class="text_negro">Html5, CSS3, Jquery<br/>
+                            </p>
+                        </div>
                     </a>
-                    <div class="overlay_blanco">
-                        <h3 class="text_titulo_negro">Ejemplo2</h3>
-                        <p class="text_negro">Html5, CSS3, Jquery<br/>
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -215,7 +217,7 @@
         <div id="Contacto" class="Contenedor">
     -->
     <!--Contacto-->
-    <footer>
+    <footer id="Contacto">
         <div class="footer_1">
             <p><a href="tel:609528550">609528550</a></p>
             <p><a href="mailto:aitor.perez.muro@gmail.com">aitor.perez.muro@gmail.com</a></p>

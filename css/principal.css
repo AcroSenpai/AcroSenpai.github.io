@@ -1,8 +1,9 @@
 body {
     margin: 0px;
     overflow-x: hidden;
-    /*background-color: #05BAD4;*/
-    background: #24113c;
+    /*background-color: #05BAD4;
+    background: #24113c;*/
+    background: #7300ff;
     Font-Family: 'Roboto Condensed', Sans-Serif;
     Font-Size: 35px;
     Font-Family: 'Cabin', Sans-Serif;
@@ -68,7 +69,6 @@ body {
 
 #Logo {
     width: 25%;
-    flex-wrap: wrap;
 }
 
 #Logo img {
@@ -79,8 +79,15 @@ body {
 #Componentes_header {
     width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+#Componentes_header a {
+    color: #faf7f7;
+    text-decoration: none;
 }
 
 #Componentes_header_movil {
@@ -183,6 +190,10 @@ body {
     height: 2vh;
 }
 
+.informacion_contenedores {
+    width: 100% !important;
+}
+
 
 /*Boton descarga*/
 
@@ -237,7 +248,7 @@ body {
 }
 
 .pagina {
-    width: 90%;
+    width: 300px;
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -314,13 +325,6 @@ body {
     justify-content: center;
 }
 
-
-/* elementos resolucion */
-
-.desaparecer_movil {
-    display: none !important;
-}
-
 .overlay_blanco {
     position: absolute;
     top: 0;
@@ -370,6 +374,7 @@ body {
     font-weight: 900;
     font-size: 2em;
     width: 100%;
+    text-align: center;
 }
 
 .ml10 .text-wrapper {
@@ -386,6 +391,9 @@ body {
     line-height: 1em;
     transform-origin: 0 0;
 }
+
+
+/*Footer*/
 
 footer {
     background-color: #24113c;
@@ -420,4 +428,63 @@ footer div {
 
 footer p {
     font-size: 3vw;
+}
+
+
+/* elementos resolucion */
+
+.desaparecer_movil {
+    display: none !important;
+}
+
+.desaparecer_web {
+    display: flex !important;
+}
+
+@media only screen and (min-width: 400px) {
+    #header_segunda_fila {
+        padding: 3%;
+    }
+    #Logo {
+        width: 25%;
+    }
+    .informacion_contenedores {
+        width: 100% !important;
+    }
+    .pagina {
+        width: 300px;
+    }
+    .desaparecer_movil {
+        display: none !important;
+    }
+    .desaparecer_web {
+        display: flex !important;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #header_segunda_fila {
+        padding: 1%;
+    }
+    #Logo {
+        width: 120px;
+    }
+    .informacion_contenedores {
+        width: 45% !important;
+    }
+    .pagina {
+        width: 400px;
+    }
+    .desaparecer_movil {
+        display: flex !important;
+    }
+    .desaparecer_web {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .pagina {
+        width: 500px;
+    }
 }
