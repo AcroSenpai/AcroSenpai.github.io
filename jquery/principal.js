@@ -59,6 +59,8 @@ $(document).ready(function() {
             delay: 10000000
         });
 
+    //Slider
+
     $('#slider').nivoSlider({
         effect: 'slideInLeft',
         slices: 15,

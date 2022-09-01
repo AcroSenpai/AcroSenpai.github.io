@@ -491,8 +491,10 @@
 
                 firstSlice.animate({ width: slider.width() + 'px' }, (settings.animSpeed * 2), '', function() { slider.trigger('nivo:animFinished'); });
             } else if (currentEffect === 'slideInLeft') {
-                createSlices(slider, settings, vars);
 
+                $(".nivo-main-image").css("visibility", "hidden");
+
+                createSlices(slider, settings, vars);
                 firstSlice = $('.nivo-slice:first', slider);
                 firstSlice.css({
                     'width': '0px',
@@ -500,7 +502,6 @@
                     'left': '',
                     'right': '0px'
                 });
-
                 firstSlice.animate({ width: slider.width() + 'px' }, (settings.animSpeed * 2), '', function() {
                     // Reset positioning
                     firstSlice.css({
