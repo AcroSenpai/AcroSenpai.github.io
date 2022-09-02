@@ -12,6 +12,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="slider/themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="slider/css/nivo-slider.css" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
 
 <body>
@@ -102,28 +105,31 @@
                     <span class="letters">Aitor Javier Perez Muro</span>
                 </span>
             </h1>
-            <h2>
+            <h2 style="display: none;">
                 Programador web y de videojuegos
             </h2>
         </div>
         <div>
             <div class="informacion_contenedores">
-                <div id="Inicio_informacion">
+                <div id="Inicio_informacion" style="display: none;">
                     <h3>Sobre mi</h3>
-                    <span style="padding: 2vw;">
+                    <span style="padding: 10px;">
                     Soy desarrollador web junior con interés en el Backend como en el Frontend, estuve un año desarrollando Videojuegos, pero ahora quiero afrontar nuevos retos.
                 </span>
-                    <div class="separador"></div>
+                    <div id="redes">
+                        <a href="https://www.linkedin.com/in/aitor-javier-perez-muro-954a74a5/" target="_blank"><img src="images/In.png"></a>
+                        <a href="https://github.com/AcroSenpai" target="_blank"><img src="images/git.png"></a>
+                    </div>
 
                     <div>
-                        <a href="Documentos/AitorJavierPerezMuro_Curriculum.pdf" class="boton_CV"><button type="button" >CV</button></a>
+                        <a href="Documentos/AitorJavierPerezMuro_Curriculum.pdf" target="_blank" class="boton_CV"><button type="button" >CV</button></a>
                     </div>
                     <div class="separador"></div>
                 </div>
                 <div>
-                    <h3>skills</h3>
+                    <h3 style="opacity: 0;"> .</h3>
                     <div class="">
-                        <div id="slider" class="nivoSlider">
+                        <div id="slider" class="nivoSlider" style="display: none;">
                             <img src="slider/images/1.png" data-thumb="slider/images/1.png" alt="" />
                             <img src="slider/images/2.png" data-thumb="slider/images/2.png" alt="" />
                             <img src="slider/images/3.png" data-thumb="slider/images/3.png" alt="" />
@@ -132,10 +138,9 @@
 
                 </div>
 
-
             </div>
-            <div class="desaparecer_movil informacion_contenedores">
-                <img src="images/1.png">
+            <div id="apartado2" class="desaparecer_movil informacion_contenedores">
+                <img style="display: none;" src="images/foto_inicio.png">
             </div>
         </div>
     </div>
@@ -150,7 +155,7 @@
             <div class="pagina">
                 <div class="container">
 
-                    <a href="https://ivanovichgames.com/TouringKarts/">
+                    <a href="https://ivanovichgames.com/TouringKarts/" target="_blank">
                         <img class="image" src="images/tk.webp">
                         <div class="overlay">
                             <h3 class="text_titulo">TouringKarts</h3>
@@ -163,7 +168,7 @@
             <div class="pagina">
                 <div class="container">
 
-                    <a href="https://ivanovichgames.com/Pangman/">
+                    <a href="https://ivanovichgames.com/Pangman/" target="_blank">
                         <img class="image" src="images/pang.webp">
                         <div class="overlay">
                             <h3 class="text_titulo">Pangman</h3>
@@ -180,7 +185,7 @@
     <div id="Pagina_propia" class="Contenedor">
         <!--Paginas Propias-->
         <div class="titulo">
-            <h1 style="color: #faf7f7">Paginas propias</h1>
+            <h1 style="color: #faf7f7; text-shadow: 0 0 2px #24113c">Paginas propias</h1>
         </div>
         <div class="Galeria">
 
@@ -219,8 +224,17 @@
     <!--Contacto-->
     <footer id="Contacto">
         <div class="footer_1">
-            <p><a href="tel:609528550">609528550</a></p>
-            <p><a href="mailto:aitor.perez.muro@gmail.com">aitor.perez.muro@gmail.com</a></p>
+            <p>
+                <a href="tel:609528550">
+                    <span class="material-symbols-outlined"> smartphone </span> 609528550
+                </a>
+            </p>
+            <p>
+
+                <a href="mailto:aitor.perez.muro@gmail.com">
+                    <span class="material-symbols-outlined"> mail </span> aitor.perez.muro@gmail.com
+                </a>
+            </p>
         </div>
         <div class="footer_2">
             <span>Aitor Javier Perez - Programador web y videojuegos</span>

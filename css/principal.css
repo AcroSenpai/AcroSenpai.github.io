@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
     /*background-color: #05BAD4;
     background: #24113c;*/
-    background: #7300ff;
+    background: #24113c;
     Font-Family: 'Roboto Condensed', Sans-Serif;
     Font-Size: 35px;
     Font-Family: 'Cabin', Sans-Serif;
@@ -88,6 +88,10 @@ body {
 #Componentes_header a {
     color: #faf7f7;
     text-decoration: none;
+}
+
+#Componentes_header a:hover {
+    color: #05BAD4;
 }
 
 #Componentes_header_movil {
@@ -220,6 +224,26 @@ body {
     box-shadow: inset -20px -20px 60px #1f0e33, inset 20px 20px 60px #291445;
 }
 
+#apartado2 {
+    display: flex;
+    align-content: flex-start !important;
+}
+
+#redes {
+    display: flex;
+    flex-wrap: nowrap !important;
+    justify-content: space-around !important;
+}
+
+#redes a img {
+    width: 30px;
+    filter: invert(1);
+}
+
+#redes a img:hover {
+    filter: invert(0);
+}
+
 
 /*Componentes paginas online*/
 
@@ -295,7 +319,7 @@ body {
 
 .text_titulo {
     color: #faf7f7;
-    font-size: 8vw;
+    font-size: 2em;
     position: absolute;
     top: 5%;
     left: 50%;
@@ -307,7 +331,7 @@ body {
 
 .text {
     color: #faf7f7;
-    font-size: 5vw;
+    font-size: 1.4em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -344,7 +368,7 @@ body {
 
 .text_negro {
     color: #24113c;
-    font-size: 5vw;
+    font-size: 1.4em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -356,7 +380,7 @@ body {
 
 .text_titulo_negro {
     color: #24113c;
-    font-size: 8vw;
+    font-size: 2em;
     position: absolute;
     top: 5%;
     left: 50%;
@@ -413,6 +437,10 @@ footer div {
     justify-content: space-around;
 }
 
+.footer_1 {
+    margin-top: 1%;
+}
+
 .footer_2 {
     display: flex;
     flex-wrap: wrap;
@@ -421,13 +449,28 @@ footer div {
 
 .footer_2 span {
     width: 100%;
-    font-size: 3vw;
+    font-size: 0.7em;
     text-align: center;
     margin-bottom: 3px;
 }
 
 footer p {
-    font-size: 3vw;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+footer p span {
+    margin-right: 10px;
+}
+
+footer p a {
+    display: flex;
+    align-items: center;
+}
+
+footer p a:hover {
+    color: #05BAD4;
 }
 
 

@@ -14,6 +14,24 @@ $(document).ready(function() {
         $(".Contenedor").attr("style", "height: " + alturaComponentes + "px");
     }).resize()
 
+    setTimeout(function() {
+        $("#Inicio h2").fadeIn(1000,
+            function() {
+
+                $("#Inicio_informacion").fadeIn(1000,
+                    function() {
+                        $("#Inicio_informacion").attr('style', 'display:flex');
+                        $("#slider").fadeIn(300,
+                            function() {
+                                $("#slider").attr('style', 'display:flex');
+                                slider
+                            });
+
+                    });
+                $("#apartado2 img").fadeIn(1000);
+            });
+
+    }, 500);
 
 
 
