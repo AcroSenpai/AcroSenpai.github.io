@@ -8,31 +8,31 @@ $(document).ready(function() {
 
     //Recalcular la altura de la pantalla por si hay modificaciones
     $(window).resize(function() {
-        alturaPantalla = window.screen.height;
-        alturaHeader = $("#header").height();
-        alturaComponentes = alturaPantalla - alturaHeader - 5;
-        $(".Contenedor").attr("style", "height: " + alturaComponentes + "px");
-    }).resize()
-
-    setTimeout(function() {
-        $("#Inicio h2").fadeIn(1000,
-            function() {
-
-                $("#Inicio_informacion").fadeIn(1000,
+            alturaPantalla = window.screen.height;
+            alturaHeader = $("#header").height();
+            alturaComponentes = alturaPantalla - alturaHeader - 5;
+            $(".Contenedor").attr("style", "height: " + alturaComponentes + "px");
+        }).resize()
+        /*
+            setTimeout(function() {
+                $("#Inicio h2").fadeIn(1000,
                     function() {
-                        $("#Inicio_informacion").attr('style', 'display:flex');
-                        $("#slider").fadeIn(300,
+
+                        $("#Inicio_informacion").fadeIn(1000,
                             function() {
-                                $("#slider").attr('style', 'display:flex');
-                                slider
+                                $("#Inicio_informacion").attr('style', 'display:flex');
+                                $("#slider").fadeIn(300,
+                                    function() {
+                                        $("#slider").attr('style', 'display:flex');
+                                        slider
+                                    });
+
                             });
-
+                        $("#apartado2 img").fadeIn(1000);
                     });
-                $("#apartado2 img").fadeIn(1000);
-            });
 
-    }, 500);
-
+            }, 500);
+        */
 
 
     //Logica menu movil
