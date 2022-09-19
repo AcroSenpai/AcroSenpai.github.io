@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bbafc33a.css",
+    "main.js": "/static/js/main.cb389937.js",
+    "static/js/787.f95b3ee8.chunk.js": "/static/js/787.f95b3ee8.chunk.js",
+    "static/media/potions.png": "/static/media/potions.3b076a5dfc4c19389a17.png",
+    "static/media/hufflepuff.png": "/static/media/hufflepuff.7434e923bd9f2f56f29e.png",
+    "static/media/hufflepuff_fondo.png": "/static/media/hufflepuff_fondo.cb0a54359b635830c9da.png",
+    "static/media/Slythering.png": "/static/media/Slythering.11281734935b6688b63a.png",
+    "static/media/Slythering_fondo.png": "/static/media/Slythering_fondo.69c4f2e0d32e16deccac.png",
+    "static/media/Casas2.png": "/static/media/Casas2.03ab30006f915570e2ca.png",
+    "static/media/ravenclaw.png": "/static/media/ravenclaw.d565c89e6737471dee2b.png",
+    "static/media/gryffindor.png": "/static/media/gryffindor.aab0c74b89e133c4efc0.png",
+    "static/media/ravenclaw_fondo.png": "/static/media/ravenclaw_fondo.c911c9402834730d22a3.png",
+    "static/media/gryffindor_fondo.png": "/static/media/gryffindor_fondo.24d2ef7536a0d4f517d4.png",
+    "static/media/spells_fondo.png": "/static/media/spells_fondo.40b389150487b473c02b.png",
+    "static/media/Spells2.png": "/static/media/Spells2.6cfc0974f3a14709ab8a.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.bbafc33a.css.map": "/static/css/main.bbafc33a.css.map",
+    "main.cb389937.js.map": "/static/js/main.cb389937.js.map",
+    "787.f95b3ee8.chunk.js.map": "/static/js/787.f95b3ee8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbafc33a.css",
+    "static/js/main.cb389937.js"
+  ]
+}

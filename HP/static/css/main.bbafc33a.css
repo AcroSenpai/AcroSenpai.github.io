@@ -1,0 +1,266 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+body {
+  background: linear-gradient(100dgr);
+  background: #060606;
+  background: linear-gradient(0deg, #060606, #151516);
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #f0f8ff;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+.App {
+  text-align: center;
+}
+.Header {
+  align-items: center;
+  background-color: #000;
+  font-family: Harry Potter, sans-serif;
+  font-size: 50px;
+  height: 10vh;
+  justify-content: center;
+  text-align: center;
+}
+.Contenido,
+.Header {
+  display: flex;
+  width: 100%;
+}
+.Contenido {
+  flex-wrap: wrap;
+  height: 90vh;
+}
+.Cont-apartado {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 33%;
+}
+.Cont-hover {
+  -webkit-filter: brightness(0.3);
+  filter: brightness(0.3);
+}
+.Casas {
+  background-image: url(../../images/Casas2.png);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Casas,
+.Spells {
+  background-size: cover;
+}
+.Spells {
+  background-image: url(../../images/Spells2.png);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Potions {
+  background-image: url(../../images/potions.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+.Cont-Casas {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.Cont-Casas-casa {
+  cursor: pointer;
+  height: 100%;
+  text-align: center;
+  width: 50%;
+}
+.Gry {
+  background-image: url(../../images/gryffindor.png);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Gry,
+.Sly {
+  background-size: cover;
+}
+.Sly {
+  background-image: url(../../images/Slythering.png);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Huff {
+  background-image: url(../../images/hufflepuff.png);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Huff,
+.Raven {
+  background-size: cover;
+}
+.Raven {
+  background-image: url(../../images/ravenclaw.png);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Cont-Casa {
+  font-size: 50px;
+  width: 100%;
+}
+.Cont-Casa-NombreCasa {
+  font-size: 5vw;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+.Cont-Casa-CreadorCasa,
+.Cont-Casa-NombreCasa {
+  font-family: Harry Potter, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.Cont-Casa-CreadorCasa {
+  font-size: 2vw;
+}
+.Cont-Casa-Secundario {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.Cont-Casa-Secundario-Fila1,
+.Cont-Casa-Secundario-Fila2,
+.Cont-Casa-Secundario-Fila3 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.Cont-Casa-AnimalCasa,
+.Cont-Casa-ColoresCasa,
+.Cont-Casa-JefesCasa {
+  margin-top: 200px;
+  text-align: center;
+  width: 40%;
+}
+.Cont-Casa-ElementoCasa,
+.Cont-Casa-FantasmaCasa,
+.Cont-Casa-SalaComunCasa,
+.Cont-Casa-Valores {
+  margin-top: 200px;
+  text-align: center;
+  width: 30%;
+}
+.Cont-casa-JefesCasa-Nomnre,
+.Cont-casa-Valores-valor {
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+.Cont-Casa-Gry {
+  background-image: url(../../images/gryffindor_fondo.png);
+  background-position-x: center;
+  background-position-y: center;
+  color: #b7931a;
+}
+.Cont-Casa-Gry,
+.Cont-Casa-Sly {
+  background-size: cover;
+  height: 100%;
+  text-shadow: 1px 1px 10px #1a1919;
+}
+.Cont-Casa-Sly {
+  background-image: url(../../images/Slythering_fondo.png);
+  background-position-x: center;
+  background-position-y: center;
+  color: #9e9e9e;
+}
+.Cont-Casa-Huff {
+  background-image: url(../../images/hufflepuff_fondo.png);
+  background-position-x: center;
+  background-position-y: center;
+  color: #040607;
+}
+.Cont-Casa-Huff,
+.Cont-Casa-Raven {
+  background-size: cover;
+  height: 100%;
+}
+.Cont-Casa-Raven {
+  background-image: url(../../images/ravenclaw_fondo.png);
+  background-position-x: center;
+  background-position-y: center;
+  color: #b58a2d;
+  text-shadow: 1px 1px 10px #1a1919;
+}
+.Cont-Spells {
+  background-image: url(../../images/spells_fondo.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  width: 100%;
+}
+.Cont-Spells,
+.Cont-Spells-Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Cont-Spells-Cards {
+  height: 98%;
+  width: 80%;
+}
+.Cont-Spells-SpellCard {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(23, 8, 90, 0.75);
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+.Cont-Spells-SpellCard-Oculto {
+  display: none;
+}
+.Cont-Spells-SpellCard-Text {
+  margin: 15px;
+}
+.Cont-Spells-SpellCard-Text div {
+  font-weight: 100 !important;
+}
+.Spell-Tipo {
+  margin: 0 10px 10px !important;
+}
+.Cont-Spells-Filter {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.FlechaAnterior {
+  color: #f0f8ff;
+  cursor: pointer;
+  font-size: 100px;
+  left: 30px;
+  position: absolute;
+  top: -13px;
+}
+/*# sourceMappingURL=main.bbafc33a.css.map*/
