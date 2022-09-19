@@ -54,7 +54,7 @@ body {
   filter: brightness(0.3);
 }
 .Casas {
-  background-image: url(../../images/Casas2.png);
+  background-image: url(../../images/Casas2.webp);
   background-position-x: center;
   background-position-y: center;
 }
@@ -63,12 +63,12 @@ body {
   background-size: cover;
 }
 .Spells {
-  background-image: url(../../images/Spells2.png);
+  background-image: url(../../images/Spells2.webp);
   background-position-x: center;
   background-position-y: center;
 }
 .Potions {
-  background-image: url(../../images/potions.png);
+  background-image: url(../../images/potions.webp);
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -85,7 +85,7 @@ body {
   width: 50%;
 }
 .Gry {
-  background-image: url(../../images/gryffindor.png);
+  background-image: url(../../images/gryffindor.webp);
   background-position-x: center;
   background-position-y: center;
 }
@@ -94,12 +94,12 @@ body {
   background-size: cover;
 }
 .Sly {
-  background-image: url(../../images/Slythering.png);
+  background-image: url(../../images/Slythering.webp);
   background-position-x: center;
   background-position-y: center;
 }
 .Huff {
-  background-image: url(../../images/hufflepuff.png);
+  background-image: url(../../images/hufflepuff.webp);
   background-position-x: center;
   background-position-y: center;
 }
@@ -108,7 +108,7 @@ body {
   background-size: cover;
 }
 .Raven {
-  background-image: url(../../images/ravenclaw.png);
+  background-image: url(../../images/ravenclaw.webp);
   background-position-x: center;
   background-position-y: center;
 }
@@ -166,7 +166,7 @@ body {
   width: 100%;
 }
 .Cont-Casa-Gry {
-  background-image: url(../../images/gryffindor_fondo.png);
+  background-image: url(../../images/gryffindor_fondo.webp);
   background-position-x: center;
   background-position-y: center;
   color: #b7931a;
@@ -178,13 +178,13 @@ body {
   text-shadow: 1px 1px 10px #1a1919;
 }
 .Cont-Casa-Sly {
-  background-image: url(../../images/Slythering_fondo.png);
+  background-image: url(../../images/Slythering_fondo.webp);
   background-position-x: center;
   background-position-y: center;
   color: #9e9e9e;
 }
 .Cont-Casa-Huff {
-  background-image: url(../../images/hufflepuff_fondo.png);
+  background-image: url(../../images/hufflepuff_fondo.webp);
   background-position-x: center;
   background-position-y: center;
   color: #040607;
@@ -195,14 +195,14 @@ body {
   height: 100%;
 }
 .Cont-Casa-Raven {
-  background-image: url(../../images/ravenclaw_fondo.png);
+  background-image: url(../../images/ravenclaw_fondo.webp);
   background-position-x: center;
   background-position-y: center;
   color: #b58a2d;
   text-shadow: 1px 1px 10px #1a1919;
 }
 .Cont-Spells {
-  background-image: url(../../images/spells_fondo.png);
+  background-image: url(../../images/spells_fondo.webp);
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -263,4 +263,4 @@ body {
   position: absolute;
   top: -13px;
 }
-/*# sourceMappingURL=main.bbafc33a.css.map*/
+/*# sourceMappingURL=main.6cc7312c.css.map*/
