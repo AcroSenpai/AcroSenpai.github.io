@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cc7312c.css",
-    "main.js": "/static/js/main.cb389937.js",
+    "main.css": "/static/css/main.4abbbb05.css",
+    "main.js": "/static/js/main.3f828e87.js",
     "static/js/787.f95b3ee8.chunk.js": "/static/js/787.f95b3ee8.chunk.js",
     "static/media/hufflepuff.webp": "/static/media/hufflepuff.c20e51889bb7524a87d2.webp",
     "static/media/hufflepuff_fondo.webp": "/static/media/hufflepuff_fondo.c36f90df458d946a1da9.webp",
     "static/media/Slythering.webp": "/static/media/Slythering.8c68151520f6d4d23f53.webp",
     "static/media/Slythering_fondo.webp": "/static/media/Slythering_fondo.1d45477ee066b0f686bc.webp",
     "static/media/ravenclaw.webp": "/static/media/ravenclaw.900df0e92d21e64974ac.webp",
-    "static/media/spells_fondo.webp": "/static/media/spells_fondo.f20fe930bbf6021e6eab.webp",
     "static/media/gryffindor.webp": "/static/media/gryffindor.6f2986bfb27dc9918dd3.webp",
     "static/media/ravenclaw_fondo.webp": "/static/media/ravenclaw_fondo.dd5d23d188278037b337.webp",
     "static/media/gryffindor_fondo.webp": "/static/media/gryffindor_fondo.7845bdd7f46d81145dca.webp",
@@ -17,12 +16,12 @@
     "static/media/Spells2.webp": "/static/media/Spells2.5210d1d3defd7d72fe89.webp",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.6cc7312c.css.map": "/static/css/main.6cc7312c.css.map",
-    "main.cb389937.js.map": "/static/js/main.cb389937.js.map",
+    "main.4abbbb05.css.map": "/static/css/main.4abbbb05.css.map",
+    "main.3f828e87.js.map": "/static/js/main.3f828e87.js.map",
     "787.f95b3ee8.chunk.js.map": "/static/js/787.f95b3ee8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cc7312c.css",
-    "static/js/main.cb389937.js"
+    "static/css/main.4abbbb05.css",
+    "static/js/main.3f828e87.js"
   ]
 }
