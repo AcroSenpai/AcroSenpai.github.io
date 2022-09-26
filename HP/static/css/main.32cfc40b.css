@@ -523,29 +523,37 @@ body {
   padding-bottom: 10px;
   width: 30%;
 }
-.FlechaAnterior,
+
 .Potion-Time,
 .Potion-manufacturer {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
 .FlechaAnterior {
-  background: hsla(75, 5%, 85%, 0.8);
-  border: 1px solid hsla(0, 2%, 9%, 0.18);
-  border-radius: 10px;
-  border-radius: 100%;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  color: #090909;
+  
+background-image: url(../../images/FlechaAtras.png);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+  color: #09090900;
   cursor: pointer;
   font-size: 90px;
   height: 100px;
   left: 20px;
   padding-right: 10px;
-  position: absolute;
+  position: fixed;
   text-align: center;
   top: 10px;
   width: 100px;
+  text-shadow: 1px 1px 10px #1a191900 !important;
+  z-index: 20;
 }
+
+.FlechaAnterior:hover
+{
+    filter: sepia(0.5);
+}
+
 .inputStyle {
   background-color: initial;
   border: 0 solid #fff;
@@ -627,6 +635,25 @@ body {
   .Cont-Casa-CreadorCasa {
     font-size: 30px;
   }
+
+  .Cont-Casa-AnimalCasa,
+  .Cont-Casa-ColoresCasa,
+  .Cont-Casa-ElementoCasa,
+  .Cont-Casa-FantasmaCasa,
+  .Cont-Casa-JefesCasa,
+  .Cont-Casa-SalaComunCasa,
+  .Cont-Casa-Valores {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    padding: 30px !important;
+  }
+
+  .Cont-Casa-Valores
+  {
+      margin-bottom: 100px !important;
+  }
+
   .Cont-Potions-Filter,
   .Cont-Spells-Filter {
     height: auto;
