@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.4abbbb05.css",
-    "main.js": "/static/js/main.3f828e87.js",
+    "main.css": "/static/css/main.32cfc40b.css",
+    "main.js": "/static/js/main.64b6ec55.js",
     "static/js/787.f95b3ee8.chunk.js": "/static/js/787.f95b3ee8.chunk.js",
+    "static/media/Potion_movil.png": "/static/media/Potion_movil.2e7aadbbc3e68090de3c.png",
+    "static/media/Casas_movil.png": "/static/media/Casas_movil.984fb245302af061495b.png",
+    "static/media/Casas_movil2.png": "/static/media/Casas_movil2.21c578ea862c6645b962.png",
+    "static/media/Spells_movil.png": "/static/media/Spells_movil.b29d62fb8de0799ff645.png",
     "static/media/hufflepuff.webp": "/static/media/hufflepuff.c20e51889bb7524a87d2.webp",
     "static/media/hufflepuff_fondo.webp": "/static/media/hufflepuff_fondo.c36f90df458d946a1da9.webp",
     "static/media/Slythering.webp": "/static/media/Slythering.8c68151520f6d4d23f53.webp",
@@ -16,12 +20,12 @@
     "static/media/Spells2.webp": "/static/media/Spells2.5210d1d3defd7d72fe89.webp",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.4abbbb05.css.map": "/static/css/main.4abbbb05.css.map",
-    "main.3f828e87.js.map": "/static/js/main.3f828e87.js.map",
+    "main.32cfc40b.css.map": "/static/css/main.32cfc40b.css.map",
+    "main.64b6ec55.js.map": "/static/js/main.64b6ec55.js.map",
     "787.f95b3ee8.chunk.js.map": "/static/js/787.f95b3ee8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4abbbb05.css",
-    "static/js/main.3f828e87.js"
+    "static/css/main.32cfc40b.css",
+    "static/js/main.64b6ec55.js"
   ]
 }

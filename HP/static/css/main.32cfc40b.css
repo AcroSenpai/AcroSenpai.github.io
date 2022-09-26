@@ -1,0 +1,811 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+body {
+  background: linear-gradient(100dgr);
+  background: #060606;
+  background: linear-gradient(0deg, #060606, #151516);
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #f0f8ff;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+.App {
+  text-align: center;
+}
+.Header {
+  align-items: center;
+  background-color: #000;
+  font-family: Harry Potter, sans-serif;
+  font-size: 50px;
+  height: 10vh;
+  justify-content: center;
+  text-align: center;
+}
+.Contenido,
+.Header {
+  display: flex;
+  width: 100%;
+}
+.Contenido {
+  flex-wrap: wrap;
+  height: 90vh;
+}
+.Cont-apartado {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 33.3%;
+}
+.Cont-hover {
+  -webkit-filter: brightness(0.3);
+  filter: brightness(0.3);
+}
+.Casas {
+  background-image: url(../../images/Casas2.webp);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Casas,
+.Spells {
+  background-size: cover;
+}
+.Spells {
+  background-image: url(../../images/Spells2.webp);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Potions {
+  background-image: url(../../images/potions.webp);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+.Cont-Casas {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.Cont-Casas-casa {
+  cursor: pointer;
+  height: 100%;
+  text-align: center;
+  width: 50%;
+}
+.Gry {
+  background-image: url(../../images/gryffindor.webp);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Gry,
+.Sly {
+  background-size: cover;
+}
+.Sly {
+  background-image: url(../../images/Slythering.webp);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Huff {
+  background-image: url(../../images/hufflepuff.webp);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Huff,
+.Raven {
+  background-size: cover;
+}
+.Raven {
+  background-image: url(../../images/ravenclaw.webp);
+  background-position-x: center;
+  background-position-y: center;
+}
+.Cont-Casa {
+  font-size: 50px;
+  width: 100%;
+}
+.Cont-Casa-NombreCasa {
+  font-size: 100px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+.Cont-Casa-CreadorCasa,
+.Cont-Casa-NombreCasa {
+  font-family: Harry Potter, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.Cont-Casa-CreadorCasa {
+  font-size: 40px;
+  margin-bottom: 200px;
+}
+.Cont-Casa-Secundario {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  width: 100%;
+}
+.Cont-Casa-Secundario-Fila1,
+.Cont-Casa-Secundario-Fila2,
+.Cont-Casa-Secundario-Fila3 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.Cont-Casa-AnimalCasa,
+.Cont-Casa-ColoresCasa,
+.Cont-Casa-ElementoCasa,
+.Cont-Casa-FantasmaCasa,
+.Cont-Casa-JefesCasa,
+.Cont-Casa-SalaComunCasa,
+.Cont-Casa-Valores {
+  margin-top: 200px;
+  text-align: center;
+  width: 30%;
+}
+.Cont-casa-JefesCasa-Nomnre,
+.Cont-casa-Valores-valor {
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+.Cont-Casa-Gry {
+  background-image: url(../../images/gryffindor_fondo.webp);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  color: #b7931a;
+  height: 100%;
+  text-shadow: 1px 1px 10px #1a1919;
+}
+.Cont-Casa-Gry .Cont-Casa-AnimalCasa,
+.Cont-Casa-Gry .Cont-Casa-ColoresCasa,
+.Cont-Casa-Gry .Cont-Casa-ElementoCasa,
+.Cont-Casa-Gry .Cont-Casa-FantasmaCasa,
+.Cont-Casa-Gry .Cont-Casa-JefesCasa,
+.Cont-Casa-Gry .Cont-Casa-SalaComunCasa,
+.Cont-Casa-Gry .Cont-Casa-Valores {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(168, 117, 14, 0.8);
+  border: 1px solid rgba(52, 38, 16, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(34, 30, 3, 0.37);
+  color: maroon;
+  margin: 20px;
+  padding: 100px;
+  text-shadow: 0 0 0 #981111;
+}
+.Cont-Casa-Sly {
+  background-image: url(../../images/Slythering_fondo.webp);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  color: #9e9e9e;
+  height: 100%;
+  text-shadow: 1px 1px 10px #1a1919;
+}
+.Cont-Casa-Sly .Cont-Casa-AnimalCasa,
+.Cont-Casa-Sly .Cont-Casa-ColoresCasa,
+.Cont-Casa-Sly .Cont-Casa-ElementoCasa,
+.Cont-Casa-Sly .Cont-Casa-FantasmaCasa,
+.Cont-Casa-Sly .Cont-Casa-JefesCasa,
+.Cont-Casa-Sly .Cont-Casa-SalaComunCasa,
+.Cont-Casa-Sly .Cont-Casa-Valores {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: #9e9e9e;
+  border: 1px solid rgba(52, 38, 16, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(38, 38, 38, 0.37);
+  color: #037650;
+  margin: 20px;
+  padding: 100px;
+  text-shadow: 0 0 0 #981111;
+}
+.Cont-Casa-Huff {
+  background-image: url(../../images/hufflepuff_fondo.webp);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  color: #040607;
+  height: 100%;
+}
+.Cont-Casa-Huff .Cont-Casa-AnimalCasa,
+.Cont-Casa-Huff .Cont-Casa-ColoresCasa,
+.Cont-Casa-Huff .Cont-Casa-ElementoCasa,
+.Cont-Casa-Huff .Cont-Casa-FantasmaCasa,
+.Cont-Casa-Huff .Cont-Casa-JefesCasa,
+.Cont-Casa-Huff .Cont-Casa-SalaComunCasa,
+.Cont-Casa-Huff .Cont-Casa-Valores {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: #0b1114;
+  border: 1px solid rgba(52, 38, 16, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(38, 38, 38, 0.37);
+  color: #c6b32c;
+  margin: 20px;
+  padding: 100px;
+  text-shadow: 0 0 0 #981111;
+}
+.Cont-Casa-Raven {
+  background-image: url(../../images/ravenclaw_fondo.webp);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  color: #b58a2d;
+  height: 100%;
+  text-shadow: 1px 1px 10px #1a1919;
+}
+.Cont-Casa-Raven .Cont-Casa-AnimalCasa,
+.Cont-Casa-Raven .Cont-Casa-ColoresCasa,
+.Cont-Casa-Raven .Cont-Casa-ElementoCasa,
+.Cont-Casa-Raven .Cont-Casa-FantasmaCasa,
+.Cont-Casa-Raven .Cont-Casa-JefesCasa,
+.Cont-Casa-Raven .Cont-Casa-SalaComunCasa,
+.Cont-Casa-Raven .Cont-Casa-Valores {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: #b58a2d;
+  border: 1px solid rgba(52, 38, 16, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(38, 38, 38, 0.37);
+  color: #0e4685;
+  margin: 20px;
+  padding: 100px;
+  text-shadow: 0 0 0 #981111;
+}
+.Cont-Spells {
+  background: linear-gradient(
+    45deg,
+    #343702,
+    #184500 20%,
+    #187546 30%,
+    #006782 40%,
+    #0b1284 50%,
+    #760ea1 60%,
+    #83096e 70%,
+    #840b2a 80%,
+    #b13e12 90%,
+    #e27412
+  );
+  background-color: #840b2a;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px,
+    530px 530px, 730px 730px, 100% 100%;
+  background-size: cover;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 100vh;
+  width: 100%;
+}
+.Cont-Spells,
+.Cont-Spells-Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Cont-Spells-Cards {
+  background: rgba(23, 8, 90, 0.3);
+  border: 1px solid rgba(23, 8, 90, 0.3);
+  border-radius: 20px;
+  height: 100%;
+  margin-bottom: 100px;
+  min-height: 30vh;
+  width: 80%;
+}
+.Cont-Spells-SpellCard {
+  border: 1px solid wheat;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 50px;
+  text-align: center;
+  width: 300px;
+}
+.Cont-Spells-SpellCard-Oculto {
+  background-color: azure;
+  border-radius: 0 0 5px 5px;
+  border-top: 1px solid #000;
+  color: #040607 !important;
+  display: none;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 100%;
+}
+.Cont-Spells-SpellCard-Text {
+  margin: 15px;
+}
+.Cont-Spells-SpellCard-Text div {
+  font-weight: 100 !important;
+}
+.Spell-Tipo {
+  margin: 0 10px 10px !important;
+}
+.Cont-Spells-Filter {
+  align-content: center;
+  align-items: center;
+  background: rgba(23, 8, 90, 0.3);
+  border: 1px solid rgba(23, 8, 90, 0.3);
+  border-radius: 20px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 50px;
+  width: 60%;
+}
+.Cont-Spell-Filter-Movil-Principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.Cont-Spell-Filter-Movil-Principal-Text {
+  display: none;
+  font-size: 30px;
+  text-align: center;
+  width: 80%;
+}
+.Cont-Spell-Filter-Movil-Principal-Flecha {
+  display: none;
+  font-size: 30px;
+  text-align: center;
+  width: 20%;
+}
+.Cont-Spell-Filter-Movil-Principal-Oculto {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.Cont-Potions {
+  background: linear-gradient(324deg, #2f3a36 4%, transparent 0) -70px 43px,
+    linear-gradient(36deg, #2f3a36 4%, transparent 0) 30px 43px,
+    linear-gradient(72deg, #e3d7bf 8.5%, transparent 0) 30px 43px,
+    linear-gradient(288deg, #e3d7bf 8.5%, transparent 0) -70px 43px,
+    linear-gradient(216deg, #e3d7bf 7.5%, transparent 0) -70px 23px,
+    linear-gradient(144deg, #e3d7bf 7.5%, transparent 0) 30px 23px,
+    linear-gradient(324deg, #2f3a36 4%, transparent 0) -20px 93px,
+    linear-gradient(36deg, #2f3a36 4%, transparent 0) 80px 93px,
+    linear-gradient(72deg, #e3d7bf 8.5%, transparent 0) 80px 93px,
+    linear-gradient(288deg, #e3d7bf 8.5%, transparent 0) -20px 93px,
+    linear-gradient(216deg, #e3d7bf 7.5%, transparent 0) -20px 73px,
+    linear-gradient(144deg, #e3d7bf 7.5%, transparent 0) 80px 73px;
+  background-color: #2f3a36;
+  background-size: 100px 100px;
+  width: 100%;
+}
+.Cont-Potions,
+.Cont-Potions-Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Cont-Potions-Cards {
+  margin-bottom: 100px;
+  width: 80%;
+}
+.Cont-Potions-Cards,
+.Cont-Potions-Filter {
+  align-content: center;
+  background: rgba(0, 63, 39, 0.96);
+  border: 1px solid rgba(8, 90, 59, 0.6);
+  border-radius: 20px;
+}
+.Cont-Potions-Filter {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 50px;
+  width: 60%;
+}
+.Cont-Potion-PotionCard {
+  background-color: #1a1919;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+  width: 80%;
+}
+.Cont-Potion-PotionCard-Oculto {
+  display: none;
+  flex-wrap: wrap;
+}
+.Cont-Potion-PotionCard-Oculto-Cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Potion-Name {
+  font-size: 30px;
+  justify-content: center;
+  margin: inherit;
+}
+.Cont-Potion-PotionCard-Text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  padding-top: 10px;
+}
+.Potion-Ingredient {
+  margin: 0 !important;
+  width: 100%;
+}
+.Potion-Inventors {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.Potion-Ingredients,
+.Potion-Inventors {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(46, 71, 18, 0.8);
+  border: 1px solid rgba(20, 55, 16, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(47, 78, 24, 0.18);
+  padding-bottom: 10px;
+  width: 45%;
+}
+.Potion-Inventor {
+  margin: 0 !important;
+  width: 100%;
+}
+.Potion-Ingredient-Name,
+.Potion-InventorName {
+  margin: 0 !important;
+  text-align: center;
+}
+.Potion-characteristics {
+  width: 100%;
+}
+.Potion-characteristics,
+.Potion-difficulty {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(46, 71, 18, 0.8);
+  border: 1px solid rgba(20, 55, 16, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(47, 78, 24, 0.18);
+  padding-bottom: 10px;
+}
+.Potion-difficulty {
+  width: 30%;
+}
+.Potion-efect,
+.Potion-sideEffects {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(46, 71, 18, 0.8);
+  border: 1px solid rgba(20, 55, 16, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(47, 78, 24, 0.18);
+  padding-bottom: 10px;
+  width: 45%;
+}
+.Potion-Time,
+.Potion-manufacturer {
+  background: rgba(46, 71, 18, 0.8);
+  border: 1px solid rgba(20, 55, 16, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(47, 78, 24, 0.18);
+  padding-bottom: 10px;
+  width: 30%;
+}
+.FlechaAnterior,
+.Potion-Time,
+.Potion-manufacturer {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.FlechaAnterior {
+  background: hsla(75, 5%, 85%, 0.8);
+  border: 1px solid hsla(0, 2%, 9%, 0.18);
+  border-radius: 10px;
+  border-radius: 100%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: #090909;
+  cursor: pointer;
+  font-size: 90px;
+  height: 100px;
+  left: 20px;
+  padding-right: 10px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 100px;
+}
+.inputStyle {
+  background-color: initial;
+  border: 0 solid #fff;
+  border-bottom: 1px solid #f5f5f5;
+  color: #f5f5f5;
+  cursor: text;
+  margin-right: 10px;
+  width: 200px;
+}
+.inputStyle::-webkit-input-placeholder {
+  color: #f5f5f5;
+}
+.inputStyle::placeholder {
+  color: #f5f5f5;
+}
+.inputStyle:hover::-webkit-input-placeholder {
+  border: 0 solid #fff;
+  border-bottom: 1px solid #82a0d8;
+  color: #82a0d8;
+}
+.inputStyle:hover::placeholder {
+  border: 0 solid #fff;
+  border-bottom: 1px solid #82a0d8;
+  color: #82a0d8;
+}
+.inputStyle:hover {
+  border: 0 solid #fff;
+  border-bottom: 1px solid #82a0d8;
+  color: #82a0d8;
+}
+.inputStyle:focus {
+  border: 0 solid wheat !important;
+}
+.botonStyle {
+  background-color: initial;
+  border: 0 solid;
+  color: #f5f5f5;
+  font-size: 20px;
+  margin-right: 20px;
+  width: 50px;
+}
+.botonStyle:hover {
+  color: red;
+  font-size: 30px;
+}
+.botonStyle:active {
+  color: #82a0d8;
+  font-size: 35px;
+}
+@media only screen and (max-width: 480px) {
+  .Header {
+    font-size: 35px;
+  }
+  .FlechaAnterior {
+    font-size: 35px;
+    height: 50px;
+    left: 15px;
+    padding: 0;
+    top: 80px;
+    vertical-align: middle;
+    width: 50px;
+  }
+  .Cont-apartado {
+    height: 33.3%;
+    width: 100%;
+  }
+  .Casas {
+    background-image: url(../../images/Casas_movil2.png);
+  }
+  .Spells {
+    background-image: url(../../images/Spells_movil.png);
+  }
+  .Potions {
+    background-image: url(../../images/Potion_movil.png);
+  }
+  .Cont-Casa-NombreCasa {
+    font-size: 50px;
+  }
+  .Cont-Casa-CreadorCasa {
+    font-size: 30px;
+  }
+  .Cont-Potions-Filter,
+  .Cont-Spells-Filter {
+    height: auto;
+  }
+  .Cont-Spell-Filter-Movil-Principal {
+    padding-top: 20px;
+    text-align: justify;
+    width: 80%;
+  }
+  .Cont-Spell-Filter-Movil-Principal-Oculto {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .inputStyle {
+    margin-bottom: 15px;
+    width: 180px;
+  }
+  .botonStyle {
+    width: 300px;
+  }
+  .Cont-Potion-PotionCard {
+    margin: 0 0 50px;
+    width: 100%;
+  }
+  .Cont-Potion-PotionCard-Text {
+    width: 100%;
+  }
+  .Potion-Name {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 830px) {
+  .Header {
+    font-size: 50px;
+  }
+  .Cont-apartado {
+    height: 33.3%;
+    width: 100%;
+  }
+  .Casas {
+    background-image: url(../../images/Casas_movil.png);
+  }
+  .Spells {
+    background-image: url(../../images/Spells_movil.png);
+  }
+  .Potions {
+    background-image: url(../../images/Potion_movil.png);
+  }
+  .Cont-Potions-Filter,
+  .Cont-Spells-Filter {
+    height: auto;
+  }
+  .Cont-Spell-Filter-Movil-Principal {
+    padding-top: 20px;
+    text-align: justify;
+    width: 80%;
+  }
+  .Cont-Spell-Filter-Movil-Principal-Oculto {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .inputStyle {
+    margin-bottom: 15px;
+  }
+  .botonStyle {
+    width: 300px;
+  }
+  .Cont-Potion-PotionCard {
+    margin: 0 0 50px;
+    width: 100%;
+  }
+  .Cont-Potion-PotionCard-Text {
+    width: 100%;
+  }
+  .Potion-Name {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 830px) and (max-width: 1200px) {
+  .Cont-Potions-Filter,
+  .Cont-Spells-Filter {
+    width: 70%;
+  }
+  .Cont-Potions-Filter div {
+    flex-wrap: wrap;
+  }
+}
+.Blue {
+  background-color: #0e0ed3;
+}
+.IcyBlue {
+  background-color: #b4b4e6;
+  color: #000;
+}
+.Red {
+  background-color: #e60707;
+}
+.Gold {
+  background-color: #daa520;
+  color: #000;
+}
+.Purple {
+  background-color: purple;
+}
+.Transparent {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.None {
+  background: transparent;
+}
+.White {
+  background-color: #f2f1f1;
+  color: #000;
+}
+.Green {
+  background-color: #0bc90b;
+  color: #000;
+}
+.Orange {
+  background-color: orange;
+  color: #000;
+}
+.Yellow {
+  background-color: #ff0;
+  color: #000;
+}
+.BrightBlue {
+  background-color: #0bf;
+  color: #000;
+}
+.Pink {
+  background-color: pink;
+  color: #000;
+}
+.Violet {
+  background-color: violet;
+  color: #000;
+}
+.Scarlet {
+  background-color: #ed2506;
+  color: #000;
+}
+.BlueishWhite {
+  background-color: #f0f8ff;
+  color: #000;
+}
+.Silver {
+  background-color: silver;
+  color: #000;
+}
+.FieryScarlet {
+  background-color: #c42209;
+  color: #000;
+}
+.Grey {
+  background-color: grey;
+  color: #000;
+}
+.DarkRed {
+  background-color: #6d0606;
+}
+.Turquoise {
+  background-color: #40e0d0;
+  color: #000;
+}
+.Fire {
+  background-color: #d73502;
+}
+.PsychedelicTransparentWave {
+  background-color: peru;
+}
+.BrightYellow {
+  background-color: #f0f09f;
+  color: #000;
+}
+.BlackSmoke {
+  background-color: #121111;
+}
+/*# sourceMappingURL=main.32cfc40b.css.map*/
